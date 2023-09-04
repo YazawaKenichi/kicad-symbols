@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L293E
+D L293E
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/3f/2a/59/15/61/43/45/af/CD00000058.pdf/files/CD00000058.pdf/jcr:content/translations/en.CD00000058.pdf
+$ENDCMP
+# end doc library

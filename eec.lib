@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# STMicroelectronics L293E
+#
+DEF L293E U 0 40 Y Y 1 L N
+F0 "U" 0 300 50 H V L CNN 
+F1 "L293E" 0 400 50 H V L CNN 
+F2 "STMicroelectronics-L293E-*" 0 500 50 H I L CNN 
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/3f/2a/59/15/61/43/45/af/CD00000058.pdf/files/CD00000058.pdf/jcr:content/translations/en.CD00000058.pdf" 0 600 50 H I L CNN 
+F4 "IC" 0 700 50 H I L CNN "category"
+F5 "IC MOTOR DRIVER PAR 20-PWRDIP" 0 800 50 H I L CNN "digikey description"
+F6 "497-3622-ND" 0 900 50 H I L CNN "digikey part number"
+F7 "DIP880W50P254L2480H510Q20" 0 1000 50 H I L CNN "ipc land pattern name"
+F8 "yes" 0 1100 50 H I L CNN "lead free"
+F9 "322db7b24db234d9" 0 1200 50 H I L CNN "library id"
+F10 "STMicroelectronics" 0 1300 50 H I L CNN "manufacturer"
+F11 "511-L293E" 0 1400 50 H I L CNN "mouser part number"
+F12 "PWRDIP20" 0 1500 50 H I L CNN "package"
+F13 "yes" 0 1600 50 H I L CNN "rohs"
+F14 "+150°C" 0 1700 50 H I L CNN "temperature range high"
+F15 "-40°C" 0 1800 50 H I L CNN "temperature range low"
+F16 "" 0 1900 50 H I L CNN "voltage"
+DRAW
+X CHIP_ENABLE_1 1 100 0 100 R 40 40 1 1 U 
+X CHIP_ENABLE_2 11 100 -100 100 R 40 40 1 1 U 
+X INPUT_1 2 100 -300 100 R 40 40 1 1 U 
+X INPUT_2 9 100 -400 100 R 40 40 1 1 U 
+X INPUT_3 12 100 -500 100 R 40 40 1 1 U 
+X INPUT_4 19 100 -600 100 R 40 40 1 1 U 
+X OUTPUT_1 3 100 -800 100 R 40 40 1 1 U 
+X OUTPUT_2 8 100 -900 100 R 40 40 1 1 U 
+X OUTPUT_3 13 100 -1000 100 R 40 40 1 1 U 
+X OUTPUT_4 18 100 -1100 100 R 40 40 1 1 U 
+X SENSE_1 4 100 -1300 100 R 40 40 1 1 U 
+X SENSE_2 7 100 -1400 100 R 40 40 1 1 U 
+X SENSE_3 14 100 -1500 100 R 40 40 1 1 U 
+X SENSE_4 17 100 -1600 100 R 40 40 1 1 U 
+X VS 10 1600 100 100 L 40 40 1 1 U 
+X GND 5 1600 -1200 100 L 40 40 1 1 U 
+X GND 6 1600 -1300 100 L 40 40 1 1 U 
+X GND 15 1600 -1400 100 L 40 40 1 1 U 
+X GND 16 1600 -1500 100 L 40 40 1 1 U 
+X VSS 20 1600 -1600 100 L 40 40 1 1 U 
+S 200 200 1500 -1700 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
