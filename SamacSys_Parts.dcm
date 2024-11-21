@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP GSFQ6806
+D MOSFET, N-CH, DUAL, 20A, 60V, SO
+K
+F https://goodarksemi.com/docs/datasheets/mosfets/GSFQ6806.pdf
+$ENDCMP
+#
+$CMP ft234xd
+D USB to serial UART
+K
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf
+$ENDCMP
+#
+$CMP A3921KLPTR-T
+D Automotive Full Bridge MOSFET Driver
+K
+F http://www.allegromicro.com/~/media/files/datasheets/a3921-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
